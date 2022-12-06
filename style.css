@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
-body {height: 100vh;
+body {height: 96vh;
     background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
-    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     display: flex;
     flex-direction: row-reverse;
@@ -20,6 +23,7 @@ body {height: 100vh;
     transform: translateX(3px);
     transform: translateY(3px);
     box-shadow: 5px 5px 15px rgb(71, 71, 71);
+    transition: 0,5s;
 }
 
 main {
@@ -34,9 +38,7 @@ main {
     width: 237px;
     background-image: url(pacote-d013/imagens/frame-iphone.png);
     background-size: 100% 100%;
-    
-    
-    
+      
 }
 
 iframe {position: absolute;
